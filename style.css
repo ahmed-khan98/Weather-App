@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+body{
+    padding: 0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(weather2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    text-align: center;
+    height: 100vh;
+    
+}
+.main{
+    text-align: center;
+    margin:100px auto;
+}
+.heading h3{
+    margin:40px auto;
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.userinput{
+    margin: 0px;
+}
+.userinput input{
+    border: none;
+    padding:5px;
+    border-radius:2px ;
+    
+    
+}
+button{
+    border: none;
+    background: rgb(100, 181, 228);
+    color: #ffffff;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    
+}
+/* button:active{
+    background: rgb(144, 205, 240);
+    border: none;
+} */
+button:focus{
+    outline: 0;
+}
+
+.apidata h5,h6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 16px;
+
+}
+.apidata h6{
+    font-size: 16px;
+}
+.apidata h4{
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 500;
+}
